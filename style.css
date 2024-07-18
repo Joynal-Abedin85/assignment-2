@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1900px;
+    color: white;
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
+.header{
+    background-image: linear-gradient(to top , rgba(0, 0, 0, 0.925) ,rgba(32, 32, 32, 0.925) 60%, rgb(0, 0, 0));
+    
+    
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 2.5rem;
+    margin-right: 2.5rem;
+    border: 1px solid rgba(177, 177, 177, 0.253);
+    border-radius: 15px;
+    padding-right: 6px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    
+}
+
+.logo-text{
+    color: rgb(231, 9, 9);
+}
+
+li.homes a{
+    background-color: rgb(248, 51, 17);
+    padding: 4px 7px;
+    border-radius: 15px;
+    color: white;
+}
+
+/* end nav  section  */
+
+
+.banner{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    column-gap: 2%;
+    margin-top: 30px;
+}
+
+.banner-text{
+    height: 500px;
+    width: 48%;
+    
+}
+.ban-head{
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-top: 50px;
+}
+.ban-p{
+    color: rgb(125, 126, 126);
+    margin-top: 30px;
+    width: 90%;
+}
+
+.btn-primary{
+    margin: 30px 0;
+    padding: 8px 20px;
+    background-color: rgb(248, 51, 17);
+    border: none;
+    border-radius: 15px;
+}
+.btn-primarys{
+    margin: 20px 5px;
+    padding: 8px 20px;
+    background: none;
+    border: 1px solid rgba(172, 171, 171, 0.836);
+    border-radius: 20px;
+}
+
+span{
+    font-family: 'Miama', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 200;
+}
+
+.banner-img{
+    height: 500px;
+    width: 48%;
+    background-image: url(./images/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  contain;
+    
+}
+
+.btn1{
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    column-gap: .6rem;
+    
+    border: none;
+    background: rgba(128, 128, 128, 0.1);
+    border-radius: 10px;
+    position: relative;
+    top: 350px;
+    left: 10%;
+    backdrop-filter: blur(11px);
+
+    
+}
+
+.btn2{
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    column-gap: .6rem;
+    position: relative;
+    border: none;
+    background: rgba(128, 128, 128, 0.1);
+    border-radius: 10px;
+    left: 60%;
+    top: 130px;
+    backdrop-filter: blur(11px);
+    
+}
+.in-btn-text h2{
+    text-align: start;
+    font-size: 35px;
+}
+.in-btn-text h1{
+    text-align: start;
+}
+.in-btn-text p{
+    text-align: start;
+    color: rgb(171, 171, 172);
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+/* this end header section  */
