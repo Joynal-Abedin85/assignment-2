@@ -165,6 +165,10 @@ span{
 .h3-tag{
     font-size: 35px;
 }
+.h2-tag{
+    font-size: 30px;
+}
+
 .p-tag{
     color: rgb(116, 115, 115);
     margin-top: 20px;
@@ -173,7 +177,7 @@ span{
     margin-top: 20px;
 }
 .habits{
-    height: 550px;
+    height: 600px;
     background-color: black;
 }
 
@@ -204,4 +208,106 @@ span{
     color: rgb(133, 133, 133);
     margin-top: 6px;
 }
+
+/* this is a join section  */
+
+.join{
+    height: 440px;
+    background-color: black;
+}
+
+.inner-join{
+    height: 350px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.281);
+    border-radius: 20px;
+    padding: 0 40px;
+    padding-left: 70px;
+}
+
+.join-text{
+    width: 35%;
+}
+
+.join-btn{
+    padding: 10px 50px;
+    border-radius: 35px;
+}
+
+.join-img img{
+    height: 280px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+/* this is exercise section  */
+
+.exercise{
+    height: auto;
+    background-color: black;
+    padding-bottom: 120px;
+}
+
+.in-exe{
+    width: 85%;
+    margin: 0 auto;
+}
+.ex-text{
+    width: 60%;
+}
+
+.fst-row{
+    display: grid ;
+    grid-template-columns: 1.3fr 2fr 1.3fr;
+    margin-top: 60px;
+    padding-bottom: 0;
+}
+
+.exe-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.exe-img{
+    height: auto;
+}
+
+
+.scnd-row{
+    display: grid ;
+    grid-template-columns: 2fr 1.3fr 1.6fr;
+    margin-top: 0;
+}
+
+.ex3{
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+
+.ex1{
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+    color: black;
+}
+
+.ex2{
+    position: relative;
+    bottom: 90%;
+    left: 40px;
+}
+
+.ex4{
+    position: relative;
+    bottom: 90%;
+    left: 80%;
+}
+
+
+
 
