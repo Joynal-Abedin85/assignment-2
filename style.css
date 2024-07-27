@@ -410,6 +410,58 @@ input::placeholder{
     font-size: 20px;
 }
 
+/*end bmi section  */
+
+/* start team member section  */
+
+.team{
+    padding-top: 50px;
+    height: 850px;
+    background-color: black;
+}
+
+.team-heading{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.team-member{
+    width: 85%;
+    margin: 50px auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2, 280px);
+    row-gap: 20px;
+    padding: 20px;
+    background-color: #3f3f3f96;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.trainer >img{
+    height: 100%;
+    width: 90%;
+    border-radius: 15px;
+    filter: brightness(75%);
+    
+}
+
+.team-name{
+    position: relative;
+    bottom: 30%;
+    left: 10%;
+    width: 90%;
+    text-align: left;
+}
+
+.ptags{
+    color: rgb(170, 170, 170);
+}
+
+
+/* now end team section  */
+
 
 
 
