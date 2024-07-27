@@ -462,6 +462,87 @@ input::placeholder{
 
 /* now end team section  */
 
+/* start uniqe section  */
+
+
+.uniqe-sect{
+    height: 750px;
+    background-color: black;
+}
+
+.uniqe-head{
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.in-uniqe{
+
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-top: 50px;
+}
+.uniqe-card{
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid rgba(119, 0, 255, 0.925);
+    height: 400px;
+    padding: 20px;
+    padding-left: 40px;
+    opacity: 80%;
+    transition: .5s ease-in-out;
+}
+.uniqe-card:hover{
+    box-shadow: inset 0px 0px 15px 2px purple;
+    
+    border: 3px solid black;
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.in-uniq-head{
+    border-bottom: 5px solid rgba(151, 40, 255, 0.699);
+    text-align: center;
+}
+
+
+.in-uniqe-text h1 , 
+.in-uniqe-text ol{
+    display: grid;
+    row-gap: 25px;
+    list-style: decimal;
+    padding-left: 15px;
+    margin-top: 17px;
+
+}
+
+.ptagsu{
+    color: #7e7e7e;
+    margin: 15px 0;
+}
+
+.info-btn{
+    background-color: rgba(128, 0, 128, 0.432);
+    padding: 7px 15px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 15px;
+    transition: .6s ease;
+}
+
+.info-btn:hover{
+    background-color: transparent;
+    color: rgb(255, 11, 255);
+    box-shadow: 0 0 5px 0 purple;
+    cursor: pointer;
+}
+
+
+/* end uniqe section  */
+
+
 
 
 
