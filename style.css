@@ -255,7 +255,7 @@ span{
 .exercise{
     height: auto;
     background-color: black;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 }
 
 .in-exe{
@@ -433,7 +433,7 @@ span{
 
 .bmi-head{
     width: 420px;
-    padding-top: 50px;
+    padding-bottom: 25px;
     margin-left: 30%;
 }
 
