@@ -51,6 +51,9 @@ li.homes a{
     border-radius: 15px;
     color: white;
 }
+.hamburger-menu{
+    display: none;
+}
 
 /* end nav  section  */
 
@@ -126,6 +129,8 @@ span{
 
     
 }
+
+
 
 .btn2{
     padding: 20px 20px;
@@ -245,6 +250,7 @@ span{
 }
 
 /* this is exercise section  */
+/* start exersice section  */
 
 .exercise{
     height: auto;
@@ -260,6 +266,113 @@ span{
     width: 60%;
 }
 
+
+
+/* .exe-img img{
+    height: 100%;
+    width: 100%;
+} */
+
+/* .exe-img{
+    height: auto;
+} */
+.over1{
+    width: auto;
+    height: 230px;
+    background: url(./images/exercise1.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.in-over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(18, 169, 207, 0.452);
+    width: 100%;
+    height: 100%;
+}
+.over2{
+    width: auto;
+    height: 230px;
+    background: url(./images/exercise2.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.in-over2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(182, 12, 12, 0.392);
+    width: 100%;
+    height: 100%;
+}
+.over3{
+    width: auto;
+    height: 230px;
+    background: url(./images/exercise3.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.in-over3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.452);
+    width: 100%;
+    height: 100%;
+}
+.over4{
+    width: auto;
+    height: 230px;
+    background: url(./images/exercise4.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.in-over4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.452);
+    width: 100%;
+    height: 100%;
+}
+.over5{
+    width: auto;
+    height: 230px;
+    background: url(./images/exercise7.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.in-over5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(16, 114, 7, 0.486);
+    width: 100%;
+    height: 100%;
+}
+.over6{
+    width: auto;
+    height: 230px;
+    background: url(./images/exercise6.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.in-over6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(32, 122, 110, 0.452);
+    width: 100%;
+    height: 100%;
+}
+
 .fst-row{
     display: grid ;
     grid-template-columns: 1.3fr 2fr 1.3fr;
@@ -267,47 +380,36 @@ span{
     padding-bottom: 0;
 }
 
-.exe-img img{
-    height: 100%;
-    width: 100%;
-}
-
-.exe-img{
-    height: auto;
-}
-
-
 .scnd-row{
     display: grid ;
-    grid-template-columns: 2fr 1.3fr 1.6fr;
+    grid-template-columns: 1.9fr 1.3fr 1.6fr;
     margin-top: 0;
 }
 
 .ex3{
     position: relative;
-    bottom: 60px;
+    bottom: -70%;
     left: 40px;
 }
 
 .ex1{
     position: relative;
-    bottom: 60px;
-    left: 40px;
+    bottom: -80%;
+    left: 20%;
     color: black;
 }
 
 .ex2{
     position: relative;
-    bottom: 90%;
+    bottom: -9%;
     left: 40px;
 }
 
 .ex4{
     position: relative;
-    bottom: 90%;
-    left: 80%;
+    bottom: -9%;
+    left: 60%;
 }
-
 
 /* this is a bmi section  */
 
@@ -337,7 +439,7 @@ span{
 
 .bmi-calculator{
     height: 400px;
-    background-color: rgba(128, 128, 128, 0.33);
+    background-color: rgba(128, 128, 128, 0.252);
 }
 .inner-cal{
     width: 85%;
@@ -353,7 +455,7 @@ table{
 }
 
 tr,td{
-    border: 1px solid rgba(95, 95, 95, 0.455);
+    border: 1px solid rgba(95, 95, 95, 0.644);
     padding: 10px 35px;
 }
 .tdr td{
@@ -459,7 +561,6 @@ input::placeholder{
     color: rgb(170, 170, 170);
 }
 
-
 /* now end team section  */
 
 /* start uniqe section  */
@@ -476,6 +577,10 @@ input::placeholder{
     text-align: center;
 }
 
+.one-letter{
+    color: rgb(255, 0, 0);
+}
+
 .in-uniqe{
 
     width: 85%;
@@ -487,7 +592,7 @@ input::placeholder{
 .uniqe-card{
     width: 70%;
     margin: 0 auto;
-    border: 3px solid rgba(119, 0, 255, 0.925);
+    border: 1px solid rgba(119, 0, 255, 0.925);
     height: 400px;
     padding: 20px;
     padding-left: 40px;
@@ -497,7 +602,7 @@ input::placeholder{
 .uniqe-card:hover{
     box-shadow: inset 0px 0px 15px 2px purple;
     
-    border: 3px solid black;
+    border: 1px solid black;
     opacity: 100%;
     cursor: pointer;
 }
@@ -577,6 +682,289 @@ input::placeholder{
 
 /* end footer section  */
 
+@media  screen and  (max-width:  576px) {
+    .header{
+        padding-top: 40px;
+    }
+    .logo-text{
+        font-size: 45px;
+    }
+    .hamburger-menu{
+        display: block;
+        padding-right: 40px;
+        font-size: 30px;
+    }
+    .head-list{
+        display: none;
+    }
 
+    .banner{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .banner-text{
+        height: auto;
+        width: auto;
+        
+    }
 
+    .btn-primary{
+        margin: 40px 0;
+        padding: 14px 35px;
+        font-size: 21px;
+        border-radius: 35px;
+    }
+    .btn-primarys{
+        margin: 40px 0;
+        padding: 14px 22px;
+        font-size: 20px;
+        border-radius: 35px;
+        margin-left: 7px;
+    }
 
+    .banner-img{
+        height: 500px;
+        width: auto;
+    }
+    .btn1{
+        padding: 15px 23px;
+    }
+    .btn2{
+        padding: 13px 23px;
+        left: 54%;
+        row-gap: 0;
+    }
+    .ban-head{
+        font-size: 45px;
+        width: 80%;
+        line-height: 45px;
+        font-weight: 1900;
+    }
+    .ban-p{
+        font-size: 20px;
+    }
+
+    /* end ban section  */
+
+    /* start habit section  */
+    .habits{
+        height: auto;
+    }
+
+    .habit-head{
+        width: 85%;
+        padding-top: 10px;
+    }
+    .habit-cards{
+        width: 55%;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 40px;
+        margin-top: 50px;
+    }
+    .p-tag{
+        line-height: 23px;
+    }
+    .p-tags{
+        font-size: 18px;
+    }
+    .mt20{
+        font-size: 23px;
+        font-weight: 200;
+    }
+    /* end habit section  */
+
+    .join{
+        height: auto;
+        padding-top: 80px;
+    }
+    .inner-join{
+        flex-direction: column;
+        height: auto;
+        padding: 25px 15px;
+        padding-left: auto;
+    }
+    .join-text{
+        width: 90%;
+    }
+    
+    .join-btn{
+        width: 100%;
+        padding: 15px auto;
+        border-radius: 35px;
+    }
+    .join-img{
+        width: 90%;
+        
+    }
+    .join-img img{
+        height: 270px;
+        width: 100%;
+        border-radius: 15px;
+    }
+    /* end join section  */
+    
+    /* this is  exercise responsive  */
+    .exercise{
+        padding-bottom: 0px;
+    }
+    .fst-row{
+        grid-template-columns: 1fr 1fr 0fr;
+    }
+    
+    .scnd-row{
+        grid-template-columns: 1fr 1.2fr 0fr;
+    }
+    .ex4{
+        position: relative;
+        bottom: -70%;
+        left: 10%;
+    }
+    .ex1{
+        color: white;
+        bottom: -70%;
+        left: 10%;
+    }
+    .over2{
+        width: 100%;
+        background-size: cover;
+        background-position: 70% 10%;
+    }
+    .over4{
+        width: 100%;
+        background-size: cover;
+        background-position: 30% ;
+    }
+    .ex-text{
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    /* start bmi section   */
+    .bmi{
+        height: auto;
+    }
+    .bmi-head{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bmi-calculator{
+        height: auto;
+    }
+    .inner-cal{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+    .chart{
+        width: 90%;
+        margin-top: 0px;
+    }
+    tr,td{
+        padding: 28px auto;
+    }
+
+    .calculate{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .selct1{
+        padding: 17px 10px;
+    }
+    .selct2{
+        width: 100%;
+        padding: 17px 10px;
+        padding-right: 62%;
+    }
+    .bmi-btn{
+        padding: 18px 80px;
+        margin-bottom: 40px;
+    }
+    
+    /* this is team section   */ 
+    .team-member{
+        width: 85%;
+        margin: 0px auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-template-rows: repeat(4 , 300px);
+        row-gap: 20px;
+        padding: 20px 0;
+        background-color: #3f3f3f96;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .team{
+        height: auto;
+    }
+    .team-heading{
+        width: 80%;
+        padding-bottom: 40px;
+    }
+
+    .ttt{
+        display: none;
+    }
+
+    
+    /* start uniqe section responsive  */
+
+    .uniqe-sect{
+        height: auto;
+    }
+
+    .uniqe-head{
+        width: 80%;
+    }
+
+    .in-uniqe{
+        width: 85%;
+        grid-template-columns: repeat(1 , 1fr);
+        margin-top: 50px;
+    }
+    .uniqe-card{
+        width: 70%;
+        margin: 20px auto;
+        border: 1px solid rgba(119, 0, 255, 0.925);
+        
+    }
+    /* started footer section  */
+
+    .footer{
+        height: auto;
+        background-color: #222222;
+        padding-bottom: 30px;
+    }
+
+    .footer-text{
+        width: 85%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 40px;
+    }
+    .fp{
+        font-size: 30px;
+    }
+    .fh{
+        font-size: 40px;
+    }
+    .fit-title{
+        font-size: 90px;
+    }
+
+    .foot-cr{
+        width: 85%;
+        margin: 0px auto;
+        margin-top: 70px;
+    }
+    .hr{
+        opacity: 30%;
+    }
+    .last-p{
+        text-align: start;
+        font-size: 23px;
+        padding: 15px 0;
+    }
+
+}
