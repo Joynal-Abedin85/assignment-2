@@ -234,11 +234,10 @@ span{
     background-color: rgba(128, 128, 128, 0.281);
     border-radius: 20px;
     padding: 0 40px;
-    padding-left: 70px;
 }
 
 .join-text{
-    width: 35%;
+    width: 45%;
 }
 
 .join-btn{
@@ -248,7 +247,7 @@ span{
 
 .join-img img{
     height: 280px;
-    width: 300px;
+    width: 100%;
     border-radius: 15px;
 }
 
@@ -271,14 +270,7 @@ span{
 
 
 
-/* .exe-img img{
-    height: 100%;
-    width: 100%;
-} */
 
-/* .exe-img{
-    height: auto;
-} */
 .over1{
     width: auto;
     height: 230px;
